@@ -589,6 +589,8 @@ font-size: 36px;
     text-transform: uppercase;
     
     color:var(--button-bcgcolor);
+
+    margin-bottom: 20px;
 }
 
 .footer-list-icons{
