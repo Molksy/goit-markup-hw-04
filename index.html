@@ -44,15 +44,18 @@
           </nav>
           <!-- Contacts -->
           <ul class="auth-nav none-decoration auth-container">
-            <li>
-              <a href="mailto:info@devstudio.com" class="auth-nav-item"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+380961111111" class="auth-nav-item"
-                >+38 096 111 11 11</a
-              >
+            <li class="auth-nav-list">
+              <a class="auth-nav-item" href="mailto:info@devstudio.com" >
+                <svg class="auth-nav-item-svg" width="16" height="10">
+                  <use href="./images/icons.svg#envelope"></use>
+                </svg>
+                info@devstudio.com</a>
+            </li class="auth-nav-list">
+              <a href="tel:+380961111111" class="auth-nav-item">
+                <svg class="auth-nav-item-smartphone" width="10" height="16">
+                  <use href="./images/icons.svg#smartphone"></use>
+                </svg>
+                +38 096 111 11 11</a>
             </li>
           </ul>
         </div>
@@ -62,7 +65,7 @@
     <main>
       <!-- Hero banner -->
 
-      <section class="hero-section">
+      <section class="hero-section overlay">
         <div class="container">
           <div class="hero-container">
             <div class="hero-headercontainer">
@@ -82,6 +85,11 @@
             <h2 class="visually-hidden">Наші переваги</h2>
             <ul class="our-benefits-list none-decoration benefits-container">
               <li class="our-benefitslist-item">
+                <div class="our-benefits-logo-container">
+                  <svg class="our-benefits-logo-antenna" height="70" width="70">
+                    <use href="./images/icons.svg#antenna"></use>
+                  </svg>
+                </div>
                 <h3 class="our-benefits-header">УВАГА ДО ДЕТАЛЕЙ</h3>
                 <p class="our-benefits-paragraph">
                   Ідейні міркування, і навіть початок повсякденної роботи з
@@ -89,6 +97,11 @@
                 </p>
               </li>
               <li class="our-benefitslist-item">
+                <div class="our-benefits-logo-container">
+                  <svg class="our-benefits-logo-clock" height="70" width="70">
+                    <use href="./images/icons.svg#clock"></use>
+                  </svg>
+                </div>
                 <h3 class="our-benefits-header">ПУНКТУАЛЬНІСТЬ</h3>
                 <p class="our-benefits-paragraph">
                   Завдання організації, особливо рамки і місце навчання кадрів
@@ -96,6 +109,11 @@
                 </p>
               </li>
               <li class="our-benefitslist-item">
+                <div class="our-benefits-logo-container">
+                  <svg class="our-benefits-logo-diagram" height="70" width="70">
+                    <use href="./images/icons.svg#diagram"></use>
+                  </svg>
+                </div>
                 <h3 class="our-benefits-header">ПЛАНУВАННЯ</h3>
                 <p class="our-benefits-paragraph">
                   Так само консультація з широким активом значною мірою
@@ -103,6 +121,15 @@
                 </p>
               </li>
               <li class="our-benefitslist-item">
+                <div class="our-benefits-logo-container">
+                  <svg
+                    class="our-benefits-logo-astronaut"
+                    height="70"
+                    width="70"
+                  >
+                    <use href="./images/icons.svg#astronaut"></use>
+                  </svg>
+                </div>
                 <h3 class="our-benefits-header">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                 <p class="our-benefits-paragraph">
                   Значимість цих проблем настільки очевидна, що реалізація
@@ -154,6 +181,31 @@
                 />
                 <h3 class="ourteam-header">Ігор Дем'яненко</h3>
                 <p class="ourteam-paragraph">Product Designer</p>
+                <div class="ourteam-list-icons-container">
+                  <ul class="ourteam-list-icons none-decoration">
+                    <li class="ourteam-list-icons-items">
+                      <a href="http://instagram.com" class="auth-nav-item">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#instagram" ></use>
+                      </svg></a>
+                    </li>
+                    <li class="ourteam-list-icons-items">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#twitter"></use>
+                      </svg>
+                    </li>
+                    <li class="ourteam-list-icons-items">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#facebook"></use>
+                      </svg>
+                    </li>
+                    <li class="ourteam-list-icons-items">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#linkedin"></use>
+                      </svg>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li class="ourteam-items">
                 <img
@@ -187,6 +239,51 @@
         </div>
       </section>
     </main>
+
+    <!-- Our clients -->
+    <section class="section our-clients">
+      <div class="container">
+        <h2 class="ourclients-section-header">Постійні клієнти</h2>
+        <ul class="our-clients-list none-decoration">
+          <li class="our-clients-list-item">
+            <a href="/" class="our-clients-list-link">
+              <svg class="our-clients-item-svg" width="106" height="60">
+                <use href="./images/icons.svg#company"></use></svg
+            ></a>
+          </li>
+          <li class="our-clients-list-item">
+            <a href="/" class="our-clients-list-link">
+              <svg class="our-clients-item-svg" width="106" height="60">
+                <use href="./images/icons.svg#company-1"></use></svg
+            ></a>
+          </li>
+          <li class="our-clients-list-item">
+            <a href="/" class="our-clients-list-link">
+              <svg class="our-clients-item-svg" width="106" height="60">
+                <use href="./images/icons.svg#company-2"></use></svg
+            ></a>
+          </li>
+          <li class="our-clients-list-item">
+            <a href="/" class="our-clients-list-link">
+              <svg class="our-clients-item-svg" width="106" height="60">
+                <use href="./images/icons.svg#company-4"></use></svg
+            ></a>
+          </li>
+          <li class="our-clients-list-item">
+            <a href="/" class="our-clients-list-link">
+              <svg class="our-clients-item-svg" width="106" height="60">
+                <use href="./images/icons.svg#company-3"></use></svg
+            ></a>
+          </li>
+          <li class="our-clients-list-item">
+            <a href="/" class="our-clients-list-link">
+              <svg class="our-clients-item-svg" width="106" height="60">
+                <use href="./images/icons.svg#company-five"></use></svg
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </section>
 
     <!-- footer -->
     <footer class="footer">
